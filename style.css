@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0 ;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+div{
+    background-color: black;
+    opacity: 60%;
+    margin: 10% 25% 10% 25%;
+    padding: 2%;
+    color:white;
+    border:3px black;
+    border-radius: 5%;
+}
+
+#display{
+    text-align: center;
+}
+
+#clock-hour{
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+}
+
+#clock-minute{
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+}
+
+#clock-second{
+    font-family: 'Lobster', cursive;;
+    font-size:40px;
+}
+
+#day-night{
+    font-family: 'Lobster', cursive;
+    font-size:70px;
+}
+
