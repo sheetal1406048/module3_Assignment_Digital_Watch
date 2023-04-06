@@ -1,0 +1,21 @@
+(18-24)Time is shown (with AM and PM) in the h1 tag.
+
+(31)A function is called (setInterval). In this function, two parameters named timeUpdate (the function name) and 1000 ms were passed.
+
+(33-38)Hour, minute, and second are taken by calling the date object.
+
+(hour is shown in 24-hour formatted) 
+
+The hour is segmented into 5 groups.
+==>hour = 0, That means it is 12 a.m.So we need to show the value of hour 12. So we define the value of hour 12 as a string.
+
+==>0<hour<=9, We need to show the value of an hour like 01, 02, 03,... So we convert the value of an hour into a string. Then add zero (a character) with that string value.
+
+==>9<hour<12, During this condition,we need not change the value of an hour. Only AM is defined like before.
+
+==> hour=12, This time, an hour is equal to 12, just like at night time.But it is 12 o'clock at noon. Also, this 12 value is an integer. So we write the condition in such a way that hour is equal to 12, and the value of hour must be of integer type. At 12 o'clock at night, the value of an hour is equal to a string.
+
+==>12<hour<24, During this time, it is PM, and we need to show the value of an hour in such a way that the hour value must be less than or equal to 12. So we subtract 12 from the hour value.
+
+
+(92-104) We use DOM manipulation to show the value in the browser.
